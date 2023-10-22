@@ -1,0 +1,83 @@
+ul {
+    color: rgba(21, 20, 20, 0.835);
+    width: 500 px;
+    background-blend-mode: color-dodge;
+  }
+  
+/*    .blue-fade {
+    font-size: 10px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 100; 
+    background: -webkit-linear-gradient(#1ba0d7, #002d3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+*/
+
+/*pseudo-class selector here*/
+a:hover {
+    color:tomato;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Gaegu';
+    background-color: #303030/*#0d060dc2; *#505050*/
+    }
+
+h1 {
+    font-size: 52px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+p,
+li {
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+#berto-bullet {
+    color: gray;
+    /*background-color: gainsboro;*/
+}
+      
+.berto-em{
+    color: #ff751a;
+}
+
+body {
+    display: flexbox;
+    width: auto;
+    margin: auto 100px;
+    background-color: #fff0e6;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+.berto-pic {
+    box-sizing: border-box;
+    height: 80%;
+    width: 100%;
+    margin: auto; /*margin-left: auto; margin-right: auto;*/
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #303030;
+    text-shadow: 3px 3px 5px dimgray;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
